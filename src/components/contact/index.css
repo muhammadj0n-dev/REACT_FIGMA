@@ -1,0 +1,23 @@
+@media only screen and (max-width:390px){
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .cotntact_top{
+            display: block;
+            img{
+                width: 350px;
+            }
+            .parag{
+                font-size: 18px;
+                width: 350px;
+            }
+        }
+        .contact_middle{
+            display: none;
+        }
+        .contact_bottom{
+            display: none;
+        }
+    }
+}

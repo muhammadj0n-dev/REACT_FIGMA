@@ -1,0 +1,38 @@
+@media only screen and (max-width: 390px) {
+    .works{
+        margin-top: 40px !important;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+        justify-content: center;
+       
+    }
+    .works_left{
+        h1{
+            width: 312px;
+            font-weight: 600;
+            text-align: center;
+            font-size: 35px;
+            height: 120px;
+        }
+        p{
+            font-size: 18px;
+            width: 328px;
+            height: 96px;
+            text-align: center;
+        }
+        button{
+            margin-left:55px;
+            width: 200px;
+            height: 47px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .works_right{
+        width: 170px;
+        display: flex;
+        justify-content: center;
+    }
+}

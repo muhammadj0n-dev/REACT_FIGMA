@@ -1,0 +1,30 @@
+@media only screen and (max-width:390px){
+    .blog{
+        margin-top: 40px !important;
+    }
+    .blog_top{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        span{
+            display: none;
+        }
+    }
+    .blog_bottom{
+        display: flex;
+        flex-direction: column !important;
+    }
+   
+    .blog_rigth{
+        width: 354px !important;
+        h1{
+            font-size: 28px;
+        }
+    }
+    .blog_left{
+     width: 354px !important;
+     h1{
+        font-size: 28px;
+    }
+    }
+}

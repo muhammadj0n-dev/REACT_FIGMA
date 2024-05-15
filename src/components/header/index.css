@@ -1,0 +1,9 @@
+@media screen and (max-width: 390px) {
+   .menu{
+    display: flex !important;
+    justify-content: end !important;
+   }
+    ul{
+        display: none !important;
+    }
+  }
